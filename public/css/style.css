@@ -1,0 +1,76 @@
+/* Ajout */
+
+.ajout-produit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 0 0 0;
+}
+
+
+/* Carte de produit : Inventaire*/
+
+.produit {
+    text-align: center;
+    margin: 1% 2% 1% 0;
+}
+
+.btn {
+    margin: 5%;
+}
+
+.card-img-top {
+    width: 50%;
+    align-self: center;
+}
+
+
+/* Inventaire */
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.margin-left {
+    margin-left: 1%;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-image: linear-gradient(to bottom right, #626262, #9e9e9e);
+}
+
+.navbar-brand,
+.nav-link {
+    color: #e6e6e6;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #cfcfcf;
+}
+
+a:focus {
+    color: #b1b1b1;
+}
+
+
+/* Details */
+
+.details-produit {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.container-details {
+    text-align: center;
+    justify-content: center;
+    margin-top: 2%;
+}
