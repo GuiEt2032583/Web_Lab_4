@@ -12,7 +12,7 @@ class APIController extends Controller
     // Lister les produits
     public function show()
     {
-        return Produit::all();
+        return ['allProducts' =>Produit::all()];
     }
 
     // Ajouter un produit
